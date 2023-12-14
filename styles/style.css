@@ -2,6 +2,7 @@
   margin: 92px 49px 92px 51px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .header__menu {
@@ -10,7 +11,7 @@
 
 .header__links-list {
   display: flex;
-  column-gap: 20px;
+  column-gap: 33px;
   list-style: circle;
   font-size: 18px;
   font-style: normal;
@@ -25,6 +26,8 @@
 .header__logo-image {
   width: 148px;
   height: 105px;
+  position: absolute;
+  left: 37rem;
 }
 
 .address {
@@ -72,25 +75,27 @@
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 115px;
 }
 
 .aligned-text {
   grid-area: aligned-text;
+  line-height: 115px;
 }
 
 .aligned-text_center {
   grid-area: aligned-text_center;
   text-align: center;
+  line-height: 110px;
 }
 
 .aligned-text_right {
   grid-area: aligned-text_right;
   text-align: right;
+  line-height: 70px;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 30px;
+  letter-spacing: 35px;
 }
 
 .no-letter-spacing {
@@ -106,7 +111,7 @@
 }
 
 .cover__description-text {
-  word-spacing: 10px;
+  word-spacing: 17.9px;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -239,7 +244,7 @@
 }
 
 .about__title {
-  padding: 100px 0px;
+  padding: 100px 0px 70px;
   color: #000;
   font-size: 40px;
   font-style: normal;
@@ -264,6 +269,10 @@
 .footer__menu-list {
   list-style: none;
   text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer__social-list {
