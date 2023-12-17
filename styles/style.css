@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .header__links-list {
@@ -153,9 +152,9 @@
 }
 
 .lots__card-list-item {
-  flex-grow: 1; 
   width: 430px;
   min-height: 450px;
+  flex-grow: 1;
 }
 
 .card-link {
@@ -265,7 +264,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 
 .footer__menu-list {
   list-style: none;
